@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+<cn.cook.sjms.presenter.MyEditText
+    android:gravity="top"
+    android:id="@+id/edt_content"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/btn_pre"
+            android:text="上一步"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" /> <Button
+            android:text="保存"
+        android:id="@+id/btn_save"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" /> <Button
+            android:text="下一步"
+        android:id="@+id/btn_next"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
