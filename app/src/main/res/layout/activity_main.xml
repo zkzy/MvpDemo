@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     >
-<cn.cook.sjms.presenter.MyEditText
+<cn.cook.mvpdemo.view.NoteEditText
     android:gravity="top"
     android:id="@+id/edt_content"
     android:layout_weight="1"
